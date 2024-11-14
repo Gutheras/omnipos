@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="<?php echo $product["id"]; ?>">
                             <?php echo $product[
                                 "name"
-                            ]; ?> - $<?php echo $product["price"]; ?>
+                            ]; ?> - Kes<?php echo $product["price"]; ?>
                         </option>
                     <?php endwhile; ?>
                 </select>
